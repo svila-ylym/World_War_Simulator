@@ -1,0 +1,35 @@
+{
+  "manifest_version": 1,
+  "name": "World War Simulator",
+  "version": "1.1.0",
+  "description": "“丞相，这一次还会败吗” - 一个战争的插件，玩家可以加入国家、战斗、结盟、拥有军衔和领土。使用此插件前需要阅读README",
+  "author": {
+    "name": "Unreal and 何夕",
+    "url": "https://github.com/svila-ylym"
+  },
+  "license": "GPLv3",
+  "keywords": ["game", "world war", "simulation", "nation", "war", "alliance", "strategy"],
+  "categories": ["Entertainment & Interaction"],
+  "host_application": {
+    "min_version": "0.10.0"
+  },
+  "plugin_info": {
+    "components": [
+      {"type": "command", "name": "join_command", "description": "加入或创建一个国家"},
+      {"type": "command", "name": "my_command", "description": "查看自己的信息"},
+      {"type": "command", "name": "friends_command", "description": "查看当前的友军列表"},
+      {"type": "command", "name": "pvp_command", "description": "对指定国家发起战斗"},
+      {"type": "command", "name": "conquer_command", "description": "对指定国家发起掠夺领土"},
+      {"type": "command", "name": "ally_command", "description": "与指定国家结盟"},
+      {"type": "command", "name": "withdraw_command", "description": "解除与指定国家的盟友关系"},
+      {"type": "command", "name": "deploy_command", "description": "在自己的领土上驻军"},
+      {"type": "command", "name": "transfer_command", "description": "(领袖) 将国家兵力转移给同国玩家"},
+      {"type": "command", "name": "appoint_command", "description": "(领袖) 任命官职"},
+      {"type": "command", "name": "set_ideology_command", "description": "(领袖) 设置国家制度"},
+      {"type": "command", "name": "help_command", "description": "显示帮助菜单"},
+      {"type": "command", "name": "nation_command", "description": "查看自己国家的信息"},
+      {"type": "command", "name": "world_command", "description": "查看世界现状"},
+      {"type": "action", "name": "random_event_action", "description": "触发随机世界事件"}
+    ]
+  }
+}
