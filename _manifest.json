@@ -10,6 +10,8 @@
   "license": "GPLv3",
   "keywords": ["game", "world war", "simulation", "nation", "war", "alliance", "strategy"],
   "categories": ["Entertainment & Interaction"],
+  "homepage_url": "https://github.com/svila-ylym/World_War_Simulator",
+  "repository_url": "https://github.com/svila-ylym/World_War_Simulator",
   "host_application": {
     "min_version": "0.10.0"
   },
@@ -32,4 +34,5 @@
       {"type": "action", "name": "random_event_action", "description": "触发随机世界事件"}
     ]
   }
+
 }
